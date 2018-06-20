@@ -1,9 +1,22 @@
 @media screen and (max-width: 599px) {
-
+    .filter-options {
+        display: block;
+    }
+    #neighborhoods-select {
+        margin: 2%;
+    }
 }
 
 @media screen and (min-width: 600px) {
-
+    nav {
+        height: 50px;
+    }
+    restaurants-list {
+        padding: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 900px) {
@@ -17,3 +30,13 @@
 @media screen and (min-width: 1800px) {
 
 }
+
+/* #maincontent {
+    display: flex;
+   flex-wrap: wrap;
+ }
+ 
+ #maincontent > * {
+   flex: 1 1 250px;
+   margin: 10px;
+ } */
