@@ -5,38 +5,99 @@
     #neighborhoods-select {
         margin: 2%;
     }
+    .inside #footer {
+        width: 100%;
+    }
+    nav {
+        height: 55px;
+      }
+    #map-container {
+          position: absolute;
+      }
+    #breadcrumb {
+        width: 100%;
+    }
+    #restaurant-container, #reviews-container, #reviews-list li{
+        padding: 5px;
+    }
+    #reviews-list li p {
+        margin: 0;
+        padding: 2px;
+    }
+    .filter-options {
+        height: 100%;
+        padding: 10px 0 0 20px;
+    }
+    #restaurants-list{
+        align-items: center;
+        justify-content: center;
+    }
+    #restaurants-list li {
+        margin: 1%;
+        width: 80%;
+    }
+    #breadcrumb {
+        padding: 0 0 0 15px;
+    }
 }
 
 @media screen and (min-width: 600px) {
     nav {
         height: 50px;
     }
-    restaurants-list {
-        padding: 5%;
+    #restaurants-list {
+        padding: 10px 15px;
         display: flex;
         flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
-    }
+      }
+      #restaurants-list li {
+        padding: 0 15px 5px 15px;
+        margin: 5px;
+      }
+      #restaurant-container, #reviews-container {
+        padding: 10px 5px;
+        margin: auto;
+      }
 }
 
 @media screen and (min-width: 900px) {
-
+    #restaurants-list {
+        padding: 20px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      #restaurants-list li {
+        padding: 0 30px 10px 30px;
+        margin: 15px;
+      }
+      #restaurant-container, #reviews-container {
+        padding: 20px 11px;
+        margin: auto;
+      }
+    }
 }
 
 @media screen and (min-width: 1200px) {
-
+    #reviews-container {
+        max-width: 1150px;
+      }
+      #reviews-list {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+      }
+      #reviews-list li {
+        width: 48%;
+      }
 }
 
 @media screen and (min-width: 1800px) {
-
+    .filter-options {
+        padding: 10px 30px 0 30px;
+    }
 }
-
-/* #maincontent {
-    display: flex;
-   flex-wrap: wrap;
- }
- 
- #maincontent > * {
-   flex: 1 1 250px;
-   margin: 10px;
- } */
