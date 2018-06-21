@@ -15,10 +15,11 @@ body {
 }
 a {
   color: #cd3333;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover, a:focus {
   color: #5bd876;
+  background-color: #000000;
   text-decoration: none;
 }
 a img{
@@ -223,4 +224,11 @@ nav h1 a {
 }
 #restaurant-hours td:first-child {
   font-weight: bold;
+}
+.rating {
+  background-color: #cd3333;
+  width: 100px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 0 0 0 10px;
 }
