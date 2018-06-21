@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @media screen and (min-width: 450px) {
     #restaurant-container, #reviews-container, #breadcrumb {
         padding: 10px;
