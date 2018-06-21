@@ -3,7 +3,7 @@ var staticCacheName = 'restaurant-static-v1';
 // Creating Cache and adding resource to it
 self.addEventListener('install', function(event) {
     var ulrsToCache = [
-        '/',
+        './',
         'index.html',
         'restaurant.html',
         'offline.html',
